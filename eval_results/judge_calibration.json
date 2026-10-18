@@ -1,0 +1,20 @@
+{
+ "judge": "rule-judge",
+ "n": 30,
+ "kappa": 0.333,
+ "agreement": 0.667,
+ "confusion_human_vs_judge": {
+  "pass": {
+   "pass": 10,
+   "fail": 5,
+   "unparseable": 0
+  },
+  "fail": {
+   "pass": 5,
+   "fail": 10,
+   "unparseable": 0
+  }
+ },
+ "usable": false,
+ "min_kappa": 0.6
+}

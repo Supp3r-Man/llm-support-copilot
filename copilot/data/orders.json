@@ -1,0 +1,1142 @@
+[
+ {
+  "order_id": "ORD-1001",
+  "customer_id": "CUST-001",
+  "customer_name": "Alder Test Co",
+  "contact_email": "ops@alder.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 1,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 12900,
+  "status": "delivered",
+  "placed_date": "2026-10-04",
+  "delivered_date": "2026-10-10",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1002",
+  "customer_id": "CUST-002",
+  "customer_name": "Birch Sample LLC",
+  "contact_email": "ops@birch.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 1,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 34900,
+  "status": "delivered",
+  "placed_date": "2026-07-20",
+  "delivered_date": "2026-08-01",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1003",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 2,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 9000,
+  "status": "shipped",
+  "placed_date": "2026-10-14",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1004",
+  "customer_id": "CUST-004",
+  "customer_name": "Dune Fixture Ltd",
+  "contact_email": "ops@dune.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 1,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 8900,
+  "status": "delivered",
+  "placed_date": "2026-10-01",
+  "delivered_date": "2026-10-06",
+  "refunded_cents": 5000
+ },
+ {
+  "order_id": "ORD-1005",
+  "customer_id": "CUST-005",
+  "customer_name": "Elm Mockworks",
+  "contact_email": "ops@elm.example.test",
+  "items": [
+   {
+    "sku": "EDGE-900",
+    "name": "Nimbus Edge Cluster",
+    "qty": 1,
+    "unit_cents": 89900
+   }
+  ],
+  "total_cents": 89900,
+  "status": "delivered",
+  "placed_date": "2026-10-05",
+  "delivered_date": "2026-10-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1006",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 3,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "cancelled",
+  "placed_date": "2026-10-09",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1007",
+  "customer_id": "CUST-007",
+  "customer_name": "Gorse Example Group",
+  "contact_email": "ops@gorse.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-09-28",
+  "delivered_date": "2026-10-05",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1008",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 2,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 69800,
+  "status": "delivered",
+  "placed_date": "2026-10-02",
+  "delivered_date": "2026-10-04",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1009",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 1,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 8900,
+  "status": "cancelled",
+  "placed_date": "2026-08-04",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1010",
+  "customer_id": "CUST-002",
+  "customer_name": "Birch Sample LLC",
+  "contact_email": "ops@birch.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 2,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 3000,
+  "status": "delivered",
+  "placed_date": "2026-08-04",
+  "delivered_date": "2026-08-13",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1011",
+  "customer_id": "CUST-007",
+  "customer_name": "Gorse Example Group",
+  "contact_email": "ops@gorse.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-10-04",
+  "delivered_date": "2026-10-05",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1012",
+  "customer_id": "CUST-010",
+  "customer_name": "Juniper Imaginary Co",
+  "contact_email": "ops@juniper.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 2,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 17800,
+  "status": "delivered",
+  "placed_date": "2026-08-04",
+  "delivered_date": "2026-08-13",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1013",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 2,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 9000,
+  "status": "delivered",
+  "placed_date": "2026-08-09",
+  "delivered_date": "2026-08-14",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1014",
+  "customer_id": "CUST-009",
+  "customer_name": "Ivy Faux Partners",
+  "contact_email": "ops@ivy.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 1,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 34900,
+  "status": "delivered",
+  "placed_date": "2026-08-06",
+  "delivered_date": "2026-08-15",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1015",
+  "customer_id": "CUST-012",
+  "customer_name": "Larch Notreal Inc",
+  "contact_email": "ops@larch.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-08-10",
+  "delivered_date": "2026-08-18",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1016",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 2,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 17800,
+  "status": "delivered",
+  "placed_date": "2026-10-08",
+  "delivered_date": "2026-10-16",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1017",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-08-12",
+  "delivered_date": "2026-08-14",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1018",
+  "customer_id": "CUST-010",
+  "customer_name": "Juniper Imaginary Co",
+  "contact_email": "ops@juniper.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 3,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 13500,
+  "status": "processing",
+  "placed_date": "2026-10-06",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1019",
+  "customer_id": "CUST-008",
+  "customer_name": "Hazel Synthetic Labs",
+  "contact_email": "ops@hazel.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 3,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 13500,
+  "status": "delivered",
+  "placed_date": "2026-10-02",
+  "delivered_date": "2026-10-09",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1020",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "processing",
+  "placed_date": "2026-08-07",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1021",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-10-06",
+  "delivered_date": "2026-10-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1022",
+  "customer_id": "CUST-010",
+  "customer_name": "Juniper Imaginary Co",
+  "contact_email": "ops@juniper.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 3,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "processing",
+  "placed_date": "2026-08-02",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1023",
+  "customer_id": "CUST-005",
+  "customer_name": "Elm Mockworks",
+  "contact_email": "ops@elm.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 3,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-10-01",
+  "delivered_date": "2026-10-06",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1024",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 3,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 26700,
+  "status": "processing",
+  "placed_date": "2026-10-05",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1025",
+  "customer_id": "CUST-007",
+  "customer_name": "Gorse Example Group",
+  "contact_email": "ops@gorse.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "processing",
+  "placed_date": "2026-08-06",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1026",
+  "customer_id": "CUST-010",
+  "customer_name": "Juniper Imaginary Co",
+  "contact_email": "ops@juniper.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 2,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 25800,
+  "status": "delivered",
+  "placed_date": "2026-09-04",
+  "delivered_date": "2026-09-07",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1027",
+  "customer_id": "CUST-012",
+  "customer_name": "Larch Notreal Inc",
+  "contact_email": "ops@larch.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 2,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 69800,
+  "status": "shipped",
+  "placed_date": "2026-09-14",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1028",
+  "customer_id": "CUST-002",
+  "customer_name": "Birch Sample LLC",
+  "contact_email": "ops@birch.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 2,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 69800,
+  "status": "shipped",
+  "placed_date": "2026-09-09",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1029",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 3,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-09-12",
+  "delivered_date": "2026-09-18",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1030",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 1,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 1500,
+  "status": "delivered",
+  "placed_date": "2026-08-02",
+  "delivered_date": "2026-08-05",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1031",
+  "customer_id": "CUST-004",
+  "customer_name": "Dune Fixture Ltd",
+  "contact_email": "ops@dune.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 1,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 34900,
+  "status": "processing",
+  "placed_date": "2026-10-14",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1032",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 2,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 9000,
+  "status": "delivered",
+  "placed_date": "2026-09-03",
+  "delivered_date": "2026-09-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1033",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 3,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 26700,
+  "status": "delivered",
+  "placed_date": "2026-10-03",
+  "delivered_date": "2026-10-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1034",
+  "customer_id": "CUST-010",
+  "customer_name": "Juniper Imaginary Co",
+  "contact_email": "ops@juniper.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 2,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 25800,
+  "status": "cancelled",
+  "placed_date": "2026-09-07",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1035",
+  "customer_id": "CUST-007",
+  "customer_name": "Gorse Example Group",
+  "contact_email": "ops@gorse.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 1,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 1500,
+  "status": "processing",
+  "placed_date": "2026-09-11",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1036",
+  "customer_id": "CUST-001",
+  "customer_name": "Alder Test Co",
+  "contact_email": "ops@alder.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 1,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 34900,
+  "status": "delivered",
+  "placed_date": "2026-08-08",
+  "delivered_date": "2026-08-10",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1037",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 1,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 8900,
+  "status": "delivered",
+  "placed_date": "2026-10-01",
+  "delivered_date": "2026-10-04",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1038",
+  "customer_id": "CUST-009",
+  "customer_name": "Ivy Faux Partners",
+  "contact_email": "ops@ivy.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 2,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 25800,
+  "status": "delivered",
+  "placed_date": "2026-08-02",
+  "delivered_date": "2026-08-09",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1039",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 2,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 9000,
+  "status": "delivered",
+  "placed_date": "2026-08-08",
+  "delivered_date": "2026-08-10",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1040",
+  "customer_id": "CUST-008",
+  "customer_name": "Hazel Synthetic Labs",
+  "contact_email": "ops@hazel.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 2,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 3000,
+  "status": "processing",
+  "placed_date": "2026-08-05",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1041",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-09-12",
+  "delivered_date": "2026-09-20",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1042",
+  "customer_id": "CUST-012",
+  "customer_name": "Larch Notreal Inc",
+  "contact_email": "ops@larch.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 3,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 104700,
+  "status": "delivered",
+  "placed_date": "2026-10-04",
+  "delivered_date": "2026-10-10",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1043",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 1,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 8900,
+  "status": "cancelled",
+  "placed_date": "2026-10-05",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1044",
+  "customer_id": "CUST-002",
+  "customer_name": "Birch Sample LLC",
+  "contact_email": "ops@birch.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 3,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 13500,
+  "status": "delivered",
+  "placed_date": "2026-09-03",
+  "delivered_date": "2026-09-07",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1045",
+  "customer_id": "CUST-009",
+  "customer_name": "Ivy Faux Partners",
+  "contact_email": "ops@ivy.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 3,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 26700,
+  "status": "delivered",
+  "placed_date": "2026-08-11",
+  "delivered_date": "2026-08-15",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1046",
+  "customer_id": "CUST-004",
+  "customer_name": "Dune Fixture Ltd",
+  "contact_email": "ops@dune.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 3,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-10-04",
+  "delivered_date": "2026-10-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1047",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 1,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 12900,
+  "status": "delivered",
+  "placed_date": "2026-09-08",
+  "delivered_date": "2026-09-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1048",
+  "customer_id": "CUST-012",
+  "customer_name": "Larch Notreal Inc",
+  "contact_email": "ops@larch.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 2,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 17800,
+  "status": "processing",
+  "placed_date": "2026-10-13",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1049",
+  "customer_id": "CUST-006",
+  "customer_name": "Fir Placeholder Corp",
+  "contact_email": "ops@fir.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-08-02",
+  "delivered_date": "2026-08-10",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1050",
+  "customer_id": "CUST-004",
+  "customer_name": "Dune Fixture Ltd",
+  "contact_email": "ops@dune.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "processing",
+  "placed_date": "2026-10-10",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1051",
+  "customer_id": "CUST-001",
+  "customer_name": "Alder Test Co",
+  "contact_email": "ops@alder.example.test",
+  "items": [
+   {
+    "sku": "CABL-5",
+    "name": "Nimbus Cable Kit",
+    "qty": 3,
+    "unit_cents": 1500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "delivered",
+  "placed_date": "2026-10-13",
+  "delivered_date": "2026-10-15",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1052",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 2,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 25800,
+  "status": "delivered",
+  "placed_date": "2026-08-08",
+  "delivered_date": "2026-08-15",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1053",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "shipped",
+  "placed_date": "2026-09-08",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1054",
+  "customer_id": "CUST-012",
+  "customer_name": "Larch Notreal Inc",
+  "contact_email": "ops@larch.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-08-03",
+  "delivered_date": "2026-08-04",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1055",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "RACK-1",
+    "name": "Nimbus Rack Mount",
+    "qty": 2,
+    "unit_cents": 8900
+   }
+  ],
+  "total_cents": 17800,
+  "status": "delivered",
+  "placed_date": "2026-10-10",
+  "delivered_date": "2026-10-18",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1056",
+  "customer_id": "CUST-011",
+  "customer_name": "Kelp Pretend Systems",
+  "contact_email": "ops@kelp.example.test",
+  "items": [
+   {
+    "sku": "SENS-10",
+    "name": "Nimbus Sensor Pack",
+    "qty": 1,
+    "unit_cents": 4500
+   }
+  ],
+  "total_cents": 4500,
+  "status": "cancelled",
+  "placed_date": "2026-08-09",
+  "delivered_date": null,
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1057",
+  "customer_id": "CUST-001",
+  "customer_name": "Alder Test Co",
+  "contact_email": "ops@alder.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-10-09",
+  "delivered_date": "2026-10-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1058",
+  "customer_id": "CUST-007",
+  "customer_name": "Gorse Example Group",
+  "contact_email": "ops@gorse.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 1,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 34900,
+  "status": "delivered",
+  "placed_date": "2026-08-05",
+  "delivered_date": "2026-08-10",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1059",
+  "customer_id": "CUST-009",
+  "customer_name": "Ivy Faux Partners",
+  "contact_email": "ops@ivy.example.test",
+  "items": [
+   {
+    "sku": "EDGE-200",
+    "name": "Nimbus Edge Gateway",
+    "qty": 3,
+    "unit_cents": 34900
+   }
+  ],
+  "total_cents": 104700,
+  "status": "delivered",
+  "placed_date": "2026-10-05",
+  "delivered_date": "2026-10-12",
+  "refunded_cents": 0
+ },
+ {
+  "order_id": "ORD-1060",
+  "customer_id": "CUST-003",
+  "customer_name": "Cedar Demo Inc",
+  "contact_email": "ops@cedar.example.test",
+  "items": [
+   {
+    "sku": "EDGE-100",
+    "name": "Nimbus Edge Router",
+    "qty": 3,
+    "unit_cents": 12900
+   }
+  ],
+  "total_cents": 38700,
+  "status": "delivered",
+  "placed_date": "2026-10-08",
+  "delivered_date": "2026-10-17",
+  "refunded_cents": 0
+ }
+]

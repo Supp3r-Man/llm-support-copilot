@@ -1,0 +1,21 @@
+{
+ "clients": 32,
+ "requests": 400,
+ "completed": 400,
+ "wall_s": 0.59,
+ "throughput_rps": 677.8,
+ "status_counts": {
+  "200": 400
+ },
+ "ok_rate": 1.0,
+ "rate_limited_429": 0.0,
+ "error_rate": 0.0,
+ "latency_ms": {
+  "p50": 46.308,
+  "p95": 50.328,
+  "p99": 51.53,
+  "max": 51.886
+ },
+ "rate_capacity": 1000000.0,
+ "rate_refill_per_s": 1000000.0
+}

@@ -1,0 +1,1265 @@
+{
+ "split": "all",
+ "variants": {
+  "baseline": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.8732,
+    "answer_ok": 0.9155,
+    "citation_ok": 0.9014,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.748,
+    "p95": 1.634
+   },
+   "mean_tokens": 1323.5,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "fault_skip_lookup": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.4577,
+    "answer_ok": 0.6338,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.5775,
+    "abstain_ok": 0.7958,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 12,
+   "failures": {
+    "policy_violation": 12,
+    "retrieval_miss": 0,
+    "tool_use_error": 48,
+    "guardrail_miss": 5,
+    "generation_error": 12
+   },
+   "latency_ms": {
+    "p50": 0.752,
+    "p95": 1.26
+   },
+   "mean_tokens": 1095.2,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 0.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 0.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 0.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.0
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "fault_hallucinate_citation": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.5211,
+    "answer_ok": 0.5282,
+    "citation_ok": 0.5211,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.669,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 2,
+    "generation_error": 66
+   },
+   "latency_ms": {
+    "p50": 0.685,
+    "p95": 1.62
+   },
+   "mean_tokens": 1323.1,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.0
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.0
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.0
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 1.0
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.8571
+    }
+   }
+  },
+  "fault_ignore_injection": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.7746,
+    "answer_ok": 0.8521,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.9648,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 0.6429
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 5,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 22
+   },
+   "latency_ms": {
+    "p50": 0.802,
+    "p95": 1.61
+   },
+   "mean_tokens": 1355.4,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.1429
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.7778
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "fault_over_refund": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.7183,
+    "answer_ok": 0.7606,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.8451,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 22,
+    "guardrail_miss": 5,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.76,
+    "p95": 1.704
+   },
+   "mean_tokens": 1322.2,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.5417
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "fault_retriever_off": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.4225,
+    "answer_ok": 0.5211,
+    "citation_ok": 0.5352,
+    "tool_ok": 0.4366,
+    "abstain_ok": 0.5211,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 80,
+    "guardrail_miss": 0,
+    "generation_error": 2
+   },
+   "latency_ms": {
+    "p50": 0.137,
+    "p95": 0.885
+   },
+   "mean_tokens": 718.3,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.0
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.0
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.0
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 1.0
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 0.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.0
+    }
+   }
+  },
+  "fault_abstain_never": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.4296,
+    "answer_ok": 0.9225,
+    "citation_ok": 0.4507,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 76
+   },
+   "latency_ms": {
+    "p50": 0.774,
+    "p95": 1.691
+   },
+   "mean_tokens": 1342.8,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.5
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.1944
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.8
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.0
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.1667
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.125
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 0.5
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "raw_skip_lookup": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.4577,
+    "answer_ok": 0.6338,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.5775,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 12,
+   "failures": {
+    "policy_violation": 12,
+    "retrieval_miss": 0,
+    "tool_use_error": 48,
+    "guardrail_miss": 5,
+    "generation_error": 12
+   },
+   "latency_ms": {
+    "p50": 0.532,
+    "p95": 1.017
+   },
+   "mean_tokens": 1093.1,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 0.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 0.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 0.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.0
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "raw_hallucinate_citation": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.493,
+    "answer_ok": 0.9155,
+    "citation_ok": 0.493,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 72,
+    "generation_error": 0
+   },
+   "latency_ms": {
+    "p50": 0.539,
+    "p95": 1.182
+   },
+   "mean_tokens": 1321.0,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.0
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.0
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.0
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "raw_ignore_injection": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.7746,
+    "answer_ok": 0.9155,
+    "citation_ok": 0.838,
+    "tool_ok": 0.9648,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 0.1429
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 5,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 14,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.586,
+    "p95": 1.396
+   },
+   "mean_tokens": 1352.6,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.1429
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.7778
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "raw_over_refund": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.7183,
+    "answer_ok": 0.7606,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.8451,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 22,
+    "guardrail_miss": 5,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.543,
+    "p95": 1.216
+   },
+   "mean_tokens": 1320.1,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.5417
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "raw_retriever_off": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.4366,
+    "answer_ok": 0.5423,
+    "citation_ok": 0.5352,
+    "tool_ok": 0.4366,
+    "abstain_ok": 0.5845,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 80,
+    "guardrail_miss": 0,
+    "generation_error": 0
+   },
+   "latency_ms": {
+    "p50": 0.109,
+    "p95": 0.781
+   },
+   "mean_tokens": 718.3,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.0
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.0
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.0
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 1.0
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.0
+    }
+   }
+  },
+  "raw_abstain_never": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.3169,
+    "answer_ok": 0.8592,
+    "citation_ok": 0.338,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9014,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 20,
+    "generation_error": 77
+   },
+   "latency_ms": {
+    "p50": 0.56,
+    "p95": 1.376
+   },
+   "mean_tokens": 1340.5,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 0.5
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.1667
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.8
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.0
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.0
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 0.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.0
+    }
+   }
+  },
+  "guardrails_off": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.8732,
+    "answer_ok": 0.9155,
+    "citation_ok": 0.9014,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.541,
+    "p95": 1.241
+   },
+   "mean_tokens": 1321.4,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "bad_top_k1": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.8592,
+    "answer_ok": 0.8662,
+    "citation_ok": 0.8873,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 10,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 5
+   },
+   "latency_ms": {
+    "p50": 0.651,
+    "p95": 1.383
+   },
+   "mean_tokens": 1142.5,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.9167
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.0
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.8333
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "bad_latest_only_off": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.8592,
+    "answer_ok": 0.9085,
+    "citation_ok": 0.8944,
+    "tool_ok": 1.0,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 0,
+   "failures": {
+    "policy_violation": 0,
+    "retrieval_miss": 1,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 14
+   },
+   "latency_ms": {
+    "p50": 0.745,
+    "p95": 1.646
+   },
+   "mean_tokens": 1318.5,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.3333
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 0.9167
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.9583
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "bad_refund_window": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.831,
+    "answer_ok": 0.8732,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.9577,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 6,
+   "failures": {
+    "policy_violation": 6,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.765,
+    "p95": 1.432
+   },
+   "mean_tokens": 1324.1,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.7083
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  },
+  "bad_refund_limit": {
+   "n": 142,
+   "metrics": {
+    "passed": 0.8451,
+    "answer_ok": 0.8873,
+    "citation_ok": 0.9014,
+    "tool_ok": 0.9718,
+    "abstain_ok": 0.9648,
+    "injection_resisted": 1.0
+   },
+   "forbidden_refunds": 4,
+   "failures": {
+    "policy_violation": 4,
+    "retrieval_miss": 0,
+    "tool_use_error": 0,
+    "guardrail_miss": 5,
+    "generation_error": 13
+   },
+   "latency_ms": {
+    "p50": 0.73,
+    "p95": 1.393
+   },
+   "mean_tokens": 1323.7,
+   "by_type": {
+    "injection_doc": {
+     "n": 14,
+     "pass": 1.0
+    },
+    "kb": {
+     "n": 36,
+     "pass": 0.8333
+    },
+    "kb_multi": {
+     "n": 10,
+     "pass": 0.7
+    },
+    "kb_superseded": {
+     "n": 6,
+     "pass": 0.5
+    },
+    "order_authz": {
+     "n": 4,
+     "pass": 1.0
+    },
+    "order_lookup": {
+     "n": 18,
+     "pass": 1.0
+    },
+    "order_notfound": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "refund_allowed": {
+     "n": 12,
+     "pass": 1.0
+    },
+    "refund_denied": {
+     "n": 24,
+     "pass": 0.7917
+    },
+    "refund_noorder": {
+     "n": 2,
+     "pass": 1.0
+    },
+    "unanswerable": {
+     "n": 14,
+     "pass": 0.6429
+    }
+   }
+  }
+ }
+}
